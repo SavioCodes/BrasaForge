@@ -1,0 +1,22 @@
+.env
+.env.local
+.env.development.local
+.env.production.local
+.env.test.local
+node_modules
+.next
+dist
+out
+coverage
+.supabase
+supabase/.temp
+supabase/.branches
+supabase/generated
+*.log
+*.lock
+site-export
+site-export.zip
+# Editor
+.vscode
+*.swp
+*.swo

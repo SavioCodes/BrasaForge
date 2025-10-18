@@ -1,0 +1,59 @@
+{
+  "version": "1.0.0",
+  "site": {
+    "name": "SaaS Turbo",
+    "description": "Plataforma SaaS para automatizar marketing digital.",
+    "locale": "pt-BR",
+    "palette": {
+      "primary": "#7c3aed",
+      "secondary": "#312e81",
+      "background": "#0f172a",
+      "accent": "#f472b6"
+    }
+  },
+  "pages": [
+    {
+      "route": "/",
+      "title": "Inicio",
+      "seo": {
+        "title": "SaaS Turbo",
+        "description": "Automatize o marketing do seu negocio com inteligencia artificial.",
+        "keywords": ["saas", "marketing", "automacao"]
+      },
+      "sections": [
+        {
+          "id": "hero",
+          "type": "hero",
+          "headline": "Automacao de marketing em minutos",
+          "subhead": "Fluxos completos, campanhas e relatorios com IA.",
+          "body": "SaaS Turbo centraliza suas campanhas e otimiza resultados com insights em tempo real.",
+          "actions": [
+            { "label": "Comecar agora", "href": "#", "style": "primary" },
+            { "label": "Ver planos", "href": "#plans", "style": "secondary" }
+          ]
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Recursaos que aceleram o crescimento",
+          "items": [
+            { "title": "Fluxos IA", "description": "Sequencias de email otimizadas automaticamente." },
+            { "title": "Painel unificado", "description": "Acompanhe funil e ROI em uma unica tela." },
+            { "title": "Integracoes", "description": "Conecte CRM, anuncios e analytics sem esforco." }
+          ]
+        },
+        {
+          "id": "pricing",
+          "type": "pricing",
+          "headline": "Planos para cada fase",
+          "items": [
+            { "title": "Starter", "description": "R$149/mes", "stats": { "usuarios": 3 } },
+            { "title": "Pro", "description": "R$349/mes", "stats": { "usuarios": 10 } },
+            { "title": "Scale", "description": "saob consulta", "stats": { "usuarios": "ilimitado" } }
+          ],
+          "actions": [ { "label": "solicitar demo", "href": "#demo", "style": "primary" } ]
+        }
+      ]
+    }
+  ]
+}

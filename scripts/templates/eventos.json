@@ -1,0 +1,55 @@
+{
+  "version": "1.0.0",
+  "site": {
+    "name": "Festival Brasa saound",
+    "description": "Evento anual de musica independente com showcases e workshops.",
+    "locale": "pt-BR",
+    "palette": {
+      "primary": "#a855f7",
+      "secondary": "#1f2937",
+      "background": "#030712",
+      "accent": "#f97316"
+    }
+  },
+  "pages": [
+    {
+      "route": "/",
+      "title": "Festival",
+      "seo": {
+        "title": "Festival Brasa saound",
+        "description": "Line-up nacional, mercado de criadores e experiencias imersivas.",
+        "keywords": ["festival", "musica", "eventos"]
+      },
+      "sections": [
+        {
+          "id": "hero",
+          "type": "hero",
+          "headline": "Tres dias de saom, cultura e conexoes",
+          "subhead": "Edicao 2025 em Belo Horizonte, com 40 atracoes e trilha de workshops.",
+          "actions": [
+            { "label": "Garantir ingressao", "href": "#ingressaos", "style": "primary" },
+            { "label": "Ver line-up", "href": "#lineup", "style": "secondary" }
+          ]
+        },
+        {
+          "id": "gallery",
+          "type": "gallery",
+          "headline": "Edicoes anteriores",
+          "media": [
+            { "kind": "image", "prompt": "Publico ao entardecer com luzes neon", "alt": "Publico festival" },
+            { "kind": "image", "prompt": "Banda independente no palco principal", "alt": "Banda no palco" }
+          ]
+        },
+        {
+          "id": "faq",
+          "type": "faq",
+          "headline": "informacoes uteis",
+          "items": [
+            { "title": "Classificacao indicativa", "description": "Evento para maiores de 18 anos." },
+            { "title": "Politica de ingressaos", "description": "Ingressaos nominais com possibilidade de transferencia ate 48h antes." }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "version": "1.0.0",
+  "site": {
+    "name": "Loja BrasaFit",
+    "description": "E-commerce de roupas fitness com producao nacional.",
+    "locale": "pt-BR",
+    "palette": {
+      "primary": "#f97316",
+      "secondary": "#111827",
+      "background": "#0f172a",
+      "accent": "#34d399"
+    }
+  },
+  "pages": [
+    {
+      "route": "/",
+      "title": "Loja",
+      "seo": {
+        "title": "Loja BrasaFit",
+        "description": "Roupas esportivas versateis e sustentaveis.",
+        "keywords": ["roupas fitness", "ecommerce", "brasil"]
+      },
+      "sections": [
+        {
+          "id": "hero",
+          "type": "hero",
+          "headline": "Colecao que acompanha seu ritmo",
+          "subhead": "Pecas femininas e masculinas com tecnologia dryfit e entrega rapida.",
+          "actions": [
+            { "label": "Comprar agora", "href": "#produtos", "style": "primary" },
+            { "label": "Ver lookbook", "href": "#galeria", "style": "secondary" }
+          ]
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Diferenciais BrasaFit",
+          "items": [
+            { "title": "Produzido no Brasil", "description": "Fornecedores certificados e cadeia transparente." },
+            { "title": "Troca sem burocracia", "description": "Primeira troca gratis em ate 30 dias." },
+            { "title": "Envio expressao", "description": "Entrega em 24h para capitais selecionadas." }
+          ]
+        },
+        {
+          "id": "gallery",
+          "type": "gallery",
+          "headline": "Colecao atual",
+          "media": [
+            { "kind": "image", "prompt": "Conjunto fitness roxo com modelo em estudio", "alt": "Conjunto roxo" },
+            { "kind": "image", "prompt": "Linha masculina em ambiente urbano", "alt": "Linha masculina" }
+          ]
+        }
+      ]
+    }
+  ]
+}

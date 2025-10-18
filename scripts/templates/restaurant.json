@@ -1,0 +1,56 @@
+{
+  "version": "1.0.0",
+  "site": {
+    "name": "Restaurante Aurora",
+    "description": "Cozinha autoral brasileira com toque de fogo e brasa.",
+    "locale": "pt-BR",
+    "palette": {
+      "primary": "#ef4444",
+      "secondary": "#7c3aed",
+      "background": "#111827",
+      "accent": "#f59e0b"
+    }
+  },
+  "pages": [
+    {
+      "route": "/",
+      "title": "Home",
+      "seo": {
+        "title": "Restaurante Aurora",
+        "description": "Menu degustacao inspirado em ingredientes brasileiros.",
+        "keywords": ["restaurante", "menu degustacao", "gastronomia"]
+      },
+      "sections": [
+        {
+          "id": "hero",
+          "type": "hero",
+          "headline": "Sabores autorais direto da brasa",
+          "subhead": "Menu degustacao sazonal com reserva online.",
+          "actions": [
+            { "label": "Reservar mesa", "href": "#reserva", "style": "primary" },
+            { "label": "Ver cardapio", "href": "#menu", "style": "secondary" }
+          ]
+        },
+        {
+          "id": "gallery",
+          "type": "gallery",
+          "headline": "Ambiente e pratos",
+          "media": [
+            { "kind": "image", "prompt": "Prato autoral com frutas brasileiras", "alt": "Prato autoral" },
+            { "kind": "image", "prompt": "Chef preparando na brasa", "alt": "Chef" }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "headline": "Reserve sua experiencia",
+          "items": [
+            { "title": "Endereco", "description": "Rua das Flores, 77 - Sao Paulo" },
+            { "title": "Horario", "description": "Ter a Dom das 18h as 23h" },
+            { "title": "Telefone", "description": "(11) 99999-0000" }
+          ]
+        }
+      ]
+    }
+  ]
+}

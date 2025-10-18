@@ -1,0 +1,56 @@
+{
+  "version": "1.0.0",
+  "site": {
+    "name": "Startup Nebula",
+    "description": "Plataforma de dados para times de produto.",
+    "locale": "pt-BR",
+    "palette": {
+      "primary": "#6366f1",
+      "secondary": "#0f172a",
+      "background": "#030712",
+      "accent": "#ec4899"
+    }
+  },
+  "pages": [
+    {
+      "route": "/",
+      "title": "Produto",
+      "seo": {
+        "title": "Nebula Data Cloud",
+        "description": "Centralize dados, crie experimentos e acompanhe resultados.",
+        "keywords": ["dados", "experimentos", "produto"]
+      },
+      "sections": [
+        {
+          "id": "hero",
+          "type": "hero",
+          "headline": "Insights em tempo real para seu produto",
+          "subhead": "Construa funis, defina north star metrics e envolva o time em minutos.",
+          "actions": [
+            { "label": "Criar conta gratuita", "href": "#signup", "style": "primary" },
+            { "label": "Assistir demo", "href": "#demo", "style": "secondary" }
+          ]
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Tudo que um squad moderno precisa",
+          "items": [
+            { "title": "Feature flags", "description": "Lance experimentos sem dependencias pesadas." },
+            { "title": "Alertas inteligentes", "description": "Receba insights automaticos em canais do time." },
+            { "title": "Biblioteca de dashboards", "description": "Templates prontos para growth, produto e CS." }
+          ]
+        },
+        {
+          "id": "faq",
+          "type": "faq",
+          "headline": "Perguntas frequentes",
+          "items": [
+            { "title": "Existe versao gratuita?", "description": "Sim, com limite de 2 projetos e 5 membros." },
+            { "title": "Quais integracoes?", "description": "Postgres, BigQuery, Segment, HubSpot e mais." }
+          ]
+        }
+      ]
+    }
+  ]
+}

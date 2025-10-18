@@ -1,0 +1,53 @@
+{
+  "version": "1.0.0",
+  "site": {
+    "name": "Imobiliaria Horizonte",
+    "description": "Especialistas em imoveis comerciais e residenciais de alto padrao.",
+    "locale": "pt-BR",
+    "palette": {
+      "primary": "#1d4ed8",
+      "secondary": "#1e293b",
+      "background": "#0f172a",
+      "accent": "#38bdf8"
+    }
+  },
+  "pages": [
+    {
+      "route": "/",
+      "title": "Imoveis",
+      "seo": {
+        "title": "Imoveis de alto padrao",
+        "description": "Venda e locacao com assessaoria persaonalizada.",
+        "keywords": ["imoveis", "alto padrao", "sao paulo"]
+      },
+      "sections": [
+        {
+          "id": "hero",
+          "type": "hero",
+          "headline": "Seu proximo endereco esta aqui",
+          "subhead": "Casas, apartamentos e lajes corporativas em localizacoes exclusivas.",
+          "actions": [ { "label": "Ver imoveis", "href": "#listagem", "style": "primary" } ]
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Por que escolher a Horizonte",
+          "items": [
+            { "title": "Curadoria completa", "description": "Equipe especializada para cada perfil de cliente." },
+            { "title": "Visitas virtuais", "description": "Tour 360 e gravacoes em 4K." },
+            { "title": "Financiamento", "description": "Parcerias com os principais bancos." }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "headline": "Fale com nossos consultores",
+          "items": [
+            { "title": "Email", "description": "contato@horizonte.com" },
+            { "title": "WhatsApp", "description": "(11) 98888-7777" }
+          ]
+        }
+      ]
+    }
+  ]
+}

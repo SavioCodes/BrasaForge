@@ -1,0 +1,53 @@
+{
+  "version": "1.0.0",
+  "site": {
+    "name": "Consultoria Brasa",
+    "description": "Consultoria de transformacao digital para industrias brasileiras.",
+    "locale": "pt-BR",
+    "palette": {
+      "primary": "#9333ea",
+      "secondary": "#1f2937",
+      "background": "#030712",
+      "accent": "#22d3ee"
+    }
+  },
+  "pages": [
+    {
+      "route": "/",
+      "title": "Consultoria",
+      "seo": {
+        "title": "Consultoria Brasa",
+        "description": "Estruture a operacao digital do seu negocio.",
+        "keywords": ["consultoria", "transformacao digital", "industria"]
+      },
+      "sections": [
+        {
+          "id": "hero",
+          "type": "hero",
+          "headline": "Planeje, execute e escale com especialistas",
+          "subhead": "Diagnostico completo, projetos data driven e squads de execucao.",
+          "actions": [ { "label": "Agendar diagnostico", "href": "#contato", "style": "primary" } ]
+        },
+        {
+          "id": "stats",
+          "type": "stats",
+          "headline": "Resultados comprovados",
+          "items": [
+            { "title": "Faturamento adicional", "stats": { "value": "+32%" } },
+            { "title": "Projetos entregues", "stats": { "value": 180 } },
+            { "title": "Clientes atendidos", "stats": { "value": 74 } }
+          ]
+        },
+        {
+          "id": "testimonials",
+          "type": "testimonials",
+          "headline": "Depoimentos",
+          "items": [
+            { "title": "CEO, MetalWork", "description": "Transformamos o comercial em 90 dias." },
+            { "title": "Diretora, AgroMix", "description": "Squad dedicado trouxe previsibilidade." }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "version": "1.0.0",
+  "site": {
+    "name": "Academia DevBrasa",
+    "description": "Plataforma de cursaos online para iniciacao em tecnologia.",
+    "locale": "pt-BR",
+    "palette": {
+      "primary": "#eab308",
+      "secondary": "#0f172a",
+      "background": "#111827",
+      "accent": "#f97316"
+    }
+  },
+  "pages": [
+    {
+      "route": "/",
+      "title": "Cursaos",
+      "seo": {
+        "title": "Academia DevBrasa",
+        "description": "Cursaos acessiveis com mentorias em grupo.",
+        "keywords": ["cursaos", "tecnologia", "programacao"]
+      },
+      "sections": [
+        {
+          "id": "hero",
+          "type": "hero",
+          "headline": "Aprenda tecnologia com acompanhamento real",
+          "subhead": "Formacoes front-end, back-end e no-code com projetos reais.",
+          "actions": [
+            { "label": "Ver trilhas", "href": "#trilhas", "style": "primary" },
+            { "label": "Aula gratuita", "href": "#aula", "style": "secondary" }
+          ]
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Como funciona",
+          "items": [
+            { "title": "Mentores dedicados", "description": "Encontros semanais para tirar duvidas e revisar projetos." },
+            { "title": "Comunidade ativa", "description": "Discord com mais de 4k alunos participando diariamente." },
+            { "title": "Carreira na pratica", "description": "Portfolio guiado, simulados de entrevistas e networking." }
+          ]
+        },
+        {
+          "id": "pricing",
+          "type": "pricing",
+          "headline": "Planos acessiveis",
+          "items": [
+            { "title": "Starter", "description": "R$59/mes", "stats": { "mentorias": 1 } },
+            { "title": "Pro", "description": "R$129/mes", "stats": { "mentorias": 4 } },
+            { "title": "Intensivo", "description": "R$189/mes", "stats": { "mentorias": 8 } }
+          ]
+        }
+      ]
+    }
+  ]
+}

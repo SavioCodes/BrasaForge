@@ -1,0 +1,54 @@
+{
+  "version": "1.0.0",
+  "site": {
+    "name": "Fintech BrasaPay",
+    "description": "Conta digital com foco em profissionais autonomos.",
+    "locale": "pt-BR",
+    "palette": {
+      "primary": "#22c55e",
+      "secondary": "#0f172a",
+      "background": "#030712",
+      "accent": "#38bdf8"
+    }
+  },
+  "pages": [
+    {
+      "route": "/",
+      "title": "BrasaPay",
+      "seo": {
+        "title": "BrasaPay - Conta digital",
+        "description": "Gestao financeira com boletos, cartao e creditos rapidos.",
+        "keywords": ["fintech", "conta digital", "autonomos"]
+      },
+      "sections": [
+        {
+          "id": "hero",
+          "type": "hero",
+          "headline": "Controle financeiro desenhado para autonomos",
+          "subhead": "Envie boletos, receba via Pix e acesse capital de giro em ate 24h.",
+          "actions": [
+            { "label": "Abrir conta", "href": "#abrir-conta", "style": "primary" },
+            { "label": "Ver tarifas", "href": "#tarifas", "style": "secondary" }
+          ]
+        },
+        {
+          "id": "features",
+          "type": "features",
+          "headline": "Tudo em um unico aplicativo",
+          "items": [
+            { "title": "Cartao sem anuidade", "description": "Fisico e virtual com cashback em parceiros." },
+            { "title": "Gestao de boletos", "description": "Envio em lote, notificacoes automaticas e reconciliacao." },
+            { "title": "Credito rapido", "description": "Oferta persaonalizada com base na movimentacao." }
+          ]
+        },
+        {
+          "id": "cta",
+          "type": "cta",
+          "headline": "Comece agora mesmo",
+          "body": "Abra sua conta em menos de 5 minutos com documento e selfie.",
+          "actions": [ { "label": "Criar conta", "href": "#abrir-conta", "style": "primary" } ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "version": "1.0.0",
+  "site": {
+    "name": "Portfolio Ana Ribeiro",
+    "description": "Designer de produto focada em experiencias digitais acessiveis.",
+    "locale": "pt-BR",
+    "palette": {
+      "primary": "#ec4899",
+      "secondary": "#312e81",
+      "background": "#0f172a",
+      "accent": "#22d3ee"
+    }
+  },
+  "pages": [
+    {
+      "route": "/",
+      "title": "Portfolio",
+      "seo": {
+        "title": "Ana Ribeiro - Product Designer",
+        "description": "Projetos de UX, UI e pesquisa com impacto em negocios digitais.",
+        "keywords": ["product designer", "ux", "portfolio"]
+      },
+      "sections": [
+        {
+          "id": "hero",
+          "type": "hero",
+          "headline": "Transformo produtos complexos em experiencias simples",
+          "subhead": "Seis anos criando saoluAAes digitais para fintechs, edtechs e healthtechs.",
+          "actions": [
+            { "label": "Adicionar no LinkedIn", "href": "https://linkedin.com", "style": "primary" },
+            { "label": "Baixar CV", "href": "#cv", "style": "secondary" }
+          ]
+        },
+        {
+          "id": "gallery",
+          "type": "gallery",
+          "headline": "Projetos recentes",
+          "media": [
+            { "kind": "image", "prompt": "Dashboard para fintech com foco em acessibilidade", "alt": "Dashboard fintech" },
+            { "kind": "image", "prompt": "App de educacao mobile com fluxos gamificados", "alt": "App educacional" }
+          ]
+        },
+        {
+          "id": "contact",
+          "type": "contact",
+          "headline": "Vamos conversar?",
+          "items": [
+            { "title": "Email", "description": "ana@anaribeiro.design" },
+            { "title": "Cidade", "description": "Porto Alegre / Remoto" }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
